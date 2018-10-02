@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-10-02, 17:24:09
+    Author     : Evelyn
+*/
+html{
+   font-family: 'Noto Sans KR', sans-serif;
+}
+#fresh-life{
+    background-image: url("../img/candy-color-design-1266105.jpg");
+    background-repeat: no-repeat;   
+    background-size: contain;  
+    background-position-x: 70%;
+    background-color: #FFB8D6;
+}
+#about{
+    background-image: url("../img/candies-chocolates-delicious-867464.jpg");
+    background-repeat: no-repeat;   
+    background-size: 100%;  
+    background-position-x: 70%;
+}
+#services{
+    background-image: url("../img/background-black-colors-239581.jpg");
+    background-repeat: no-repeat;   
+    background-size: 100%;  
+    background-position-x: 70%;
+}
+#services-header{
+    color: white;
+    position: relative;
+    top:50%;
+    
+}
+.box-left{
+    padding:120px 120px 80px 120px;
+    
+}
+.box-right{
+    padding:160px 120px ;
+    float: right;
+    position: relative;
+}
+.header-box{
+   text-transform: capitalize;
+   font-weight: 900;
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 54px;
+}
+.paragraph{
+    max-width: 400px;
+    height: auto;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.nav-custom > li>a {
+    position: relative;
+    display: block;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    background-color: #FFB8D6;
+    color:white;
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+}
+.nav-custom > li >a:hover ,.nav-custom > li >a:focus{
+background-color: transparent;
+ border-top: 5px solid red;
+ padding-bottom: 5px;
+ color:white;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-custom{
+    margin-bottom: 0px !important;
+    background-color: #FFB8D6;
+}
+
+
+.navbar-nav-custom>.active>a:focus, .navbar-nav-custom>.active>a:hover{
+    color: #555;
+    border-top: 5px solid red;
+    background-color: transparent;
+    padding-top:10px;
+    color:white;
+}
+
+.navbar-nav-custom>:not(.active)>a:hover{
+     background-color: transparent;
+      border-top: 5px solid red;
+       padding-top:10px;
+       color: white;
+}
+.scroll{
+  margin-top:90px;
+  position: relative;
+  left: 48%;
+  right: 50%; 
+
+}
+
+body{
+    overflow-x : hidden;  
+    
+}
+.orange-button{
+    padding:10px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #e83e8c;
+    color: white;
+    border: 0px solid  transparent;
+    box-shadow: 0px 2px 5px grey;
+}
